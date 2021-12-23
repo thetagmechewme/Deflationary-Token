@@ -695,9 +695,9 @@ contract Name is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "Name COIN";
-    string private _symbol = "Name";
-    uint8 private _decimals = 18;
+    string private _name = "The Shamrock Token";
+    string private _symbol = "4Leaf";
+    uint8 private _decimals = 12;
     
     uint256 public _taxFee = 3;
     uint256 private _previousTaxFee = _taxFee;
@@ -709,7 +709,7 @@ contract Name is Context, IERC20, Ownable {
     uint256 private _previousBurnFee = _burnFee;
 
     uint256 public _charityFee = 5;
-    address public charityWallet = 0x4eF9A651F8656DEf8454178406eEae16FB7Ca458;
+    address public charityWallet = 0x177AE60c54639336C4Ab1dD3A2bcB18450147DF8;
     uint256 private _previouscharityFee = _charityFee;
 
     IUniswapV2Router02 public  uniswapV2Router;
